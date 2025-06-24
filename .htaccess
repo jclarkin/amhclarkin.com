@@ -1,0 +1,2 @@
+# Block access to vite-src directory
+RedirectMatch 404 ^/vite-src/ 
