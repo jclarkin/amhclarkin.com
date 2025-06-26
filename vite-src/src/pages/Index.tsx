@@ -23,7 +23,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <GraduationCap className="h-8 w-8 text-primary" />
-            <h1 className="text-2xl font-bold text-gray-900">Arianna Clarkin Tutoring</h1>
+            <h1 className="text-2xl font-bold text-gray-900">Russell-Embrun Tutor - Arianna Clarkin</h1>
           </div>
           <Button>
             <Mail className="h-4 w-4 mr-2" />
@@ -39,8 +39,8 @@ const Index = () => {
             Unlock Your Academic Potential
           </h2>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Law student offering expert tutoring in Mathematics (all grades) and Sciences (up to Grade 10). 
-            Personalized learning that builds confidence and achieves results.
+            Professional tutor offering expert tutoring in Mathematics (all grades) and Sciences (up to Grade 10). 
+            Law student providing personalized learning that builds confidence and achieves results in the Russell-Embrun area, Ontario.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="#contact" className="text-lg px-8 py-3"><Button size="lg" className="text-lg px-8 py-3 w-full">Start Learning Today</Button></a>
@@ -65,7 +65,7 @@ const Index = () => {
               </p>
               <div className="flex items-center space-x-4 text-gray-600">
                 <MapPin className="h-5 w-5" />
-                <span>Serving Embrun/Russell area, Ontario</span>
+                <span>Serving the Russell-Embrun area, Ontario</span>
               </div>
             </div>
             <div className="bg-gradient-to-br from-purple-100 to-purple-200 p-8 rounded-2xl">
@@ -128,6 +128,48 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Why Choose Me Section */}
+      <section className="py-16 px-4 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl font-bold text-gray-900 mb-4">Why Choose Me?</h3>
+            <p className="text-lg text-gray-600">Professional tutoring services tailored to your academic needs</p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8">
+            <Card className="p-8">
+              <CardContent className="p-0">
+                <h4 className="text-xl font-bold text-gray-900 mb-4">Local Expertise</h4>
+                <p className="text-gray-600 mb-4">
+                  As a graduate from the <strong>Township of Russell</strong>, I understand the local curriculum and academic requirements. 
+                  I provide personalized tutoring that aligns with Ontario's educational standards.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Ontario curriculum expertise</li>
+                  <li>• Local school system knowledge</li>
+                  <li>• Flexible scheduling for the Russell-Embrun area</li>
+                </ul>
+              </CardContent>
+            </Card>
+            
+            <Card className="p-8">
+              <CardContent className="p-0">
+                <h4 className="text-xl font-bold text-gray-900 mb-4">Proven Results</h4>
+                <p className="text-gray-600 mb-4">
+                  Students working with me show improved grades, 
+                  increased confidence, and better understanding of complex concepts.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li>• Improved academic performance</li>
+                  <li>• Enhanced problem-solving skills</li>
+                  <li>• Long-term learning strategies</li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials Section */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
@@ -160,10 +202,10 @@ const Index = () => {
                   ))}
                 </div>
                 <p className="text-gray-600 mb-4">
-                  "My daughter's confidence in math has improved dramatically. Arianna creates a 
+                  "My daughter's confidence in science has improved dramatically. Arianna, our trusted <strong>science tutor</strong>, creates a 
                   comfortable learning environment where questions are always welcome."
                 </p>
-                <div className="font-semibold text-gray-900">- Parent</div>
+                <div className="font-semibold text-gray-900">- Parent, Embrun</div>
               </CardContent>
             </Card>
           </div>
@@ -175,7 +217,7 @@ const Index = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-3xl font-bold text-white mb-6">Ready to Get Started?</h3>
           <p className="text-xl text-purple-100 mb-8">
-            Contact me to discuss your tutoring needs and schedule your sessions
+            Contact me to discuss your tutoring needs and schedule your sessions. Available for students in the Russell-Embrun area, Ontario.
           </p>
           
           <div className="bg-white rounded-2xl p-8 shadow-xl">
@@ -226,7 +268,7 @@ const Index = () => {
             <span className="text-lg font-semibold">Arianna Clarkin Tutoring</span>
           </div>
           <p className="text-gray-400">
-            Professional tutoring services in Mathematics and Sciences • Embrun/Russell, Ontario
+            Professional tutoring services in Mathematics and Sciences • Russell Township, Ontario
           </p>
         </div>
       </footer>
